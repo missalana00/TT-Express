@@ -1,0 +1,28 @@
+Express Basics Notes:
+
+A server is a program that runs on a remote computer 
+Its job is to wait for http requests 
+
+Express handles requests through routes that we can set up in the app
+
+From a users perspective, a route is just like a URL
+
+Its called a route because its the path a user takes to access data 
+on a server
+
+From the applications persepctive, a route is a command to run a specific function
+which, in turn, send a response back to a client
+
+Using Templates with Express Notes:
+
+A template provides the basic HTML for an app and serves it to the users; it's like an HTML 
+page with blanks in it for the customized info 
+
+JavaScript template language we will use: Pug
+
+Steps to using pug:
+1. Download Pug with npm
+2. Update code in app to us Pug
+3. Create templates
+4. Render templates with response.render()
+
